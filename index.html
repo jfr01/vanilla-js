@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>Vanilla Tip Calculator</header>
+
+        <div class="content">
+            <label for="totalBill">Enter Total bill</label>
+            <input type="text" name="total" id="totalBill">
+            <label for="tipPercentage"> How much tip are you feeling?</label>
+            <input type="text" name="tip" id="tipPercentage">
+            <br>
+            <button id="calculate">Calculate!</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <div class="tip-result"></div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
